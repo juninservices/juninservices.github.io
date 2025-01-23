@@ -152,11 +152,6 @@ body {
 .section2_content div p strong{
     color: #39b54a;
 }
-.section2_content div h3 {
-    
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
 
 .section2_photo {
     width: 30%;
@@ -577,9 +572,7 @@ body {
     }
     
     .section1_bar { 
-        width: 428px;
-        height: 223px;
-        background-image: url("img/sec1.png");
+        height: 8em;
     }
     
 
@@ -594,11 +587,6 @@ body {
 
     }
     
-    .section1_bar img {
-        width: 14em;
-        height: auto;
-    }
-
     .link_up {
         position: relative;
         transform: translateX(60%) translateY(-100%) !important;
