@@ -24,7 +24,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light ">
         <a class="navbar-brand" href="#"><img class="navbar-ico" src="assets/img/logo.png" width="260" alt="-" /></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button id="navbarNavButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -282,5 +282,17 @@
     <section class="footer_box d-flex flex-row"> 
         <div class="footer_text">© 2024 Junin Services, Designed by Ingrid Costales</div>
     </section>
+    <script>
+        const navbarNav = document.getElementById("navbarNav");
+        const navbarButton = document.getElementById("navbarNavButton");
+        
+        navbarButton.onclick = function () {
+            if (navbarNav.classList.contains("collapse")) {
+                navbarNav.classList.remove('collapse');
+            } else {
+                navbarNav.classList.add('collapse');
+            }
+        };
+    </script>
 </body>
 </html>

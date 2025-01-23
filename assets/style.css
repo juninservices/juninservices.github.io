@@ -469,7 +469,10 @@ body {
     flex-direction:column;
     align-self: center;
     margin-bottom: 2em;    
+}
 
+.navbar-collapse {
+    font-size: 1em;
 }
 
 .section_contact_bar img {
@@ -572,6 +575,10 @@ body {
 }
   
 @media (max-width: 480px) {
+    .navbar-collapse {
+        font-size: 1.2em;
+    }
+
     body {
         font-size: 14px;
     }
