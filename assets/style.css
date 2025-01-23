@@ -522,10 +522,25 @@ body {
     visibility: visible;
 }
 
+.contacts_social {
+    justify-content: center;
+    font-size: 1.32em;
+}
+
 
 /* Media queries for responsive layout */
 @media (max-width: 900px) {
+    .section1_text {
+        font-size: 1em;
+    }
 
+    .servicios div a {
+        font-size: 1em;
+    }
+ 
+    .section_contact_bar {
+        font-size: 1.4em;
+    }
 }
 
 @media (max-width: 768px) {
@@ -546,7 +561,7 @@ body {
     }
     
     .section1_text {
-        font-size: 0.7em;
+        font-size: 1em;
     }
      
     .section1_bar img {
@@ -575,7 +590,6 @@ body {
         height: 8em;
     }
     
-
     .image-boxed-contact {
         width:  16px;
         height: 16px;
