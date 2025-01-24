@@ -139,6 +139,9 @@ body {
     text-decoration: underline;
 }
 
+.section_title h1, .section_title h2, .section_title h3 {
+    text-transform: uppercase;
+}
 
 .section2 {
     color: black;
