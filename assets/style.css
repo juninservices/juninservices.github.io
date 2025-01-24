@@ -505,6 +505,8 @@ body {
   border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
 }
 
+.
+
 /* Tooltip text */
 .tooltip .tooltiptext {
     visibility: hidden;
@@ -530,6 +532,9 @@ body {
     font-size: 1.32em;
 }
 
+.navbar-toggler {
+    margin-left: 1em;
+}
 
 /* Media queries for responsive layout */
 @media (max-width: 900px) {
@@ -618,5 +623,13 @@ body {
     }
     .section_contact_bar {
         font-size: 0.9em;
+    }
+
+    .nav-item {
+        margin-left: 1rem;
+    }
+    
+    .navbar-ico {
+        width: 320;
     }
 }
