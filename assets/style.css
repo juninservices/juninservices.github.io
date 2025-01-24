@@ -478,6 +478,13 @@ body {
     font-size: 1em;
 }
 
+.contacts_social {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+
 .section_contact_bar img {
     width:4em;
    
@@ -528,11 +535,6 @@ body {
 /* Show the tooltip text when you mouse over the tooltip container */
 .tooltip:hover .tooltiptext {
     visibility: visible;
-}
-
-.contacts_social {
-    justify-content: center;
-    font-size: 1.32em;
 }
 
 .navbar-toggler {
