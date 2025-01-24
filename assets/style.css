@@ -15,7 +15,7 @@ body {
 }
 
 .navbar-ico {
-    margin: 0.7em 2em;
+    margin: 0.7em 1em;
 }
 
 .lblWhatsapp {
@@ -190,7 +190,7 @@ body {
 .section_clientes_bar h2 { 
     color: black;
     font-weight: bold;
-    text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);
+    /*text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);*/
 }
 
 .servicios {
@@ -251,7 +251,7 @@ body {
     z-index: 1;
     color:white;
     font-weight: bold;
-    text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);
+    /*text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);*/
 }
 
 .servicios .title {
@@ -260,7 +260,7 @@ body {
     font-size: 1.4em;
     font-weight: 600;
     text-align: center;
-    text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);
+    /*text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);*/
 }
 
 .servicios div {
@@ -348,7 +348,7 @@ body {
 .section4_bar h2 { 
     color: white;
     font-weight: bold;
-    text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);
+    /*text-shadow: 0em 0.0375em 0.159375em rgba(0, 0, 0, 0.325000);*/
     margin-bottom: 0px !important;
 }
 
@@ -577,6 +577,12 @@ body {
         height: auto;
     }
 
+    .navbar-ico {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
   
 @media (max-width: 480px) {
@@ -630,6 +636,8 @@ body {
     }
     
     .navbar-ico {
-        width: 320;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
