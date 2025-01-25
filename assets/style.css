@@ -156,7 +156,8 @@ body {
     font-size: 1.2em;
     text-align: center;
 }
-.section2_content div p strong{
+
+.color-accent {
     color: #39b54a;
 }
 
@@ -486,6 +487,7 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
+  font-size: 1em;
 }
 
 
