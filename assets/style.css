@@ -16,9 +16,13 @@ body {
 
 .navbar-ico {
     margin: 0.7em 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .lblWhatsapp {
+    margin-left: 1em;
     color: #29803e;
     font-size: 25px;
     padding-right: 2em;
@@ -554,6 +558,10 @@ body {
     .section_contact_bar {
         font-size: 1.4em;
     }
+    .nav-item {
+        margin-left: 1rem;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -581,12 +589,27 @@ body {
         width: 24em;
         height: auto;
     }
+    
+    .nav-item {
+        margin-left: 1rem;
+    }
 
-    .navbar-ico {
+    .navbar-brand {
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+    .navbar-options {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lblWhatsapp {
+        margin-left: 1em;
+    }
+}
 
 }
   
@@ -632,6 +655,7 @@ body {
     .servicios div a {
         font-size: 1em;
     }
+
     .section_contact_bar {
         font-size: 0.9em;
     }
@@ -639,10 +663,20 @@ body {
     .nav-item {
         margin-left: 1rem;
     }
-    
-    .navbar-ico {
+
+    .navbar-brand {
+        width: 100vw;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .navbar-options {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lblWhatsapp {
+        margin-left: 1em;
     }
 }
