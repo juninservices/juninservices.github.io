@@ -113,6 +113,7 @@ body {
     text-align: center;
     justify-content: center;
 }
+
 .section1_text h3 {
     font-weight: bold;
 }
@@ -158,6 +159,10 @@ body {
     display: block;
     font-size: 1.2em;
     text-align: center;
+}
+
+.section2_content p {
+    text-align: justify;
 }
 
 .color-accent {
@@ -280,7 +285,7 @@ body {
 
 .servicios_text_body{
     font-size: 1em;
-    text-align: center;
+    text-align: justify;
 }
 
 .servicios div a {
