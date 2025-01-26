@@ -113,6 +113,9 @@ body {
     text-align: center;
     justify-content: center;
 }
+.section1_text h2 {
+    font-weight: bold;
+}
 
 .section1_bar { 
     width: 100vw;
@@ -490,6 +493,12 @@ body {
   font-size: 1em;
 }
 
+.contacts_social_email {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 1em;
+}
 
 .section_contact_bar img {
     width:4em;
@@ -611,9 +620,11 @@ body {
     .lblWhatsapp {
         margin-left: 1em;
     }
+    .contacts_social_email {
+        font-size: 0.8em;
+    }
 }
 
-}
   
 @media (max-width: 480px) {
     .navbar-collapse {
@@ -659,7 +670,7 @@ body {
     }
 
     .section_contact_bar {
-        font-size: 0.9em;
+        font-size: 1.6em;
     }
 
     .nav-item {
@@ -680,5 +691,8 @@ body {
     }
     .lblWhatsapp {
         margin-left: 1em;
+    }
+    .contacts_social_email {
+        font-size: 0.8em;
     }
 }
